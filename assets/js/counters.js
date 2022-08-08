@@ -1,4 +1,4 @@
-window.addEventListener("scroll", function() {
+window.addEventListener("scroll", function () {
     let elements = document.getElementsByClassName("laboral_counter");
     let screenSize = window.innerHeight;
 
@@ -6,7 +6,7 @@ window.addEventListener("scroll", function() {
         var element = elements[i];
 
         if (element.getBoundingClientRect().top < screenSize) {
-            $('.laboral_counter').each(function() {
+            $('.laboral_counter').each(function () {
                 var $this = $(this),
                     countTo = $this.attr('data-count');
 
@@ -15,10 +15,10 @@ window.addEventListener("scroll", function() {
                 }, {
                     duration: 2000,
                     easing: 'linear',
-                    step: function() {
+                    step: function () {
                         $this.text(Math.floor(this.countNum));
                     },
-                    complete: function() {
+                    complete: function () {
                         $this.text(this.countNum);
                     }
                 });

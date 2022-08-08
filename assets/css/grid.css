@@ -1,4 +1,8 @@
 /* Global */
+html {
+    width: 100vw !important;
+}
+
 body {
     margin: 0;
     border: 0;
@@ -12,28 +16,35 @@ body {
     grid-template-rows: 100vh;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    width: 100vw !important;
 }
 
 /* Sections */
 .section1 {
     grid-area: 1 / 1 / 2 / 2;
+    width: 100vw !important;
 }
 
 .section2 {
     grid-area: 2 / 1 / 3 / 2;
+    border-radius: 251% 0 25% 0;
     padding-bottom: 100px;
+    width: 100vw !important;
 }
 
 .section3 {
     grid-area: 3 / 1 / 4 / 2;
     background: rgb(0, 0, 0);
+    width: 100vw !important;
 }
 
 .section4 {
     background: rgb(0, 0, 0);
     grid-area: 4 / 1 / 5 / 2;
+    width: 100vw !important;
 }
 
 .section5 {
     grid-area: 5 / 1 / 6 / 2;
+    width: 100vw !important;
 }
