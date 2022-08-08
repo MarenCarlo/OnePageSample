@@ -140,10 +140,10 @@ hr {
     }
 
     .container_img {
+        position: absolute;
+        left: 45.5vw;
         top: 5vh;
         width: 100%;
-        text-align: center;
-        position: absolute;
         transition: all 1s;
         z-index: 5;
         overflow-x: hidden !important;
@@ -160,7 +160,7 @@ hr {
     .parallax_title2 {
         z-index: 100;
         font-family: subtitle;
-        background: -webkit-linear-gradient(#ff600a, #ffa50a, #ffcc00, #7a5c04);
+        background: #FFF;
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -171,7 +171,6 @@ hr {
         transition: all 1s;
         overflow-x: hidden !important;
         overflow-y: hidden !important;
-        text-shadow: #00000074 7px 5px 10px;
     }
 
     .container_subtitle {
@@ -690,10 +689,10 @@ hr {
     }
 
     .container_img {
+        position: absolute;
+        left: 34.5vw;
         top: 5vh;
         width: 100%;
-        text-align: center;
-        position: absolute;
         transition: all 1s;
         z-index: 5;
         overflow-x: hidden !important;
@@ -701,8 +700,9 @@ hr {
     }
 
     .logo_cfp {
-        width: 10%;
-        height: 10%;
+        width: 40%;
+        height: auto;
+        margin: 0 auto;
         z-index: 5;
         image-rendering: optimizeSpeed;
     }
@@ -710,7 +710,7 @@ hr {
     .parallax_title2 {
         z-index: 100;
         font-family: subtitle;
-        background: -webkit-linear-gradient(#ff600a, #ffa50a, #ffcc00, #7a5c04);
+        background: #FFF;
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -721,7 +721,6 @@ hr {
         transition: all 1s;
         overflow-x: hidden !important;
         overflow-y: hidden !important;
-        text-shadow: #00000074 7px 5px 10px;
     }
 
     .container_subtitle {
